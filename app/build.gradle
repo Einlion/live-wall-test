@@ -12,10 +12,10 @@ android {
             keyPassword 'password'
         }
     }
-    namespace 'com.github.cvzi.darkmodewallpaper'
+    namespace 'com.github.cvzi.custom.darkmodewallpaper'
     ndkVersion '27.0.11902837'
     defaultConfig {
-        applicationId 'com.github.cvzi.darkmodewallpaper'
+        applicationId 'com.github.cvzi.custom.darkmodewallpaper'
         minSdk 29
         compileSdk 35
         targetSdk 35

@@ -17,9 +17,8 @@
     You should have received a copy of the GNU General Public License
     along with DarkModeLiveWallpaper.  If not, see <https://www.gnu.org/licenses/>.
 -->
-<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
-    android:description="@string/wallpaper_description"
-    android:settingsActivity="com.github.cvzi.darkmodewallpaper.activity.MainActivity"
-    android:showMetadataInPreview="true"
-    android:supportsMultipleDisplays="true"
-    android:thumbnail="@drawable/transparent" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/transparent" android:state_checked="true" />
+    <item android:drawable="@android:color/transparent" android:state_pressed="true" />
+    <item android:drawable="@android:color/transparent" />
+</selector>
